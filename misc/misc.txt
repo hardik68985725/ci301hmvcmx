@@ -1,0 +1,10 @@
+
+
+setup
+
+1 - change the $config['base_url'] = '<YOUR PATH>/'; into /ci301hmvcmx/application/config/config.php file.
+2 - change the RewriteBase <YOUR PATH>/ into /ci301hmvcmx/.htaccess file.
+3 - create db with db_ci301hmvcmx
+4 - request this url http://local.host/ci/ci301hmvcmx/migration/db and migrate the db.
+
+

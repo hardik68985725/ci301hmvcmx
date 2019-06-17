@@ -1,0 +1,67 @@
+@import "../../../common/less/style_my.less";
+
+/*NAV*/
+.my-admin-navbar {
+
+    /****/
+    .div-logo {
+        margin: 0px;
+        padding: 10px 15px;
+        display: inline-block;
+        float: left;
+        width: 150px;
+
+        .navbar-brand {
+            margin: 0px;
+            padding: 0px;
+            float: none;
+            height: auto;
+            width: 100%;
+            line-height: normal;
+
+            .img-logo {
+                width: 100%;
+            }
+        }
+    }
+
+    /****/
+    .sidebar-nav {
+        .nav {
+            li {
+                a {
+                    padding: 15px 15px 15px 15px;
+
+                    span {
+                        /*float: left;*/
+                        /*line-height: normal;*/
+                    }
+
+                    .fa-fw {
+                        margin: 0px;
+                        padding: 0px 5px 0px 0px;
+                        float: none;
+                        width: auto;
+                        /*line-height: normal;*/
+                        text-align: left;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: @screen-xs-max) {
+        .navbar-top-links {
+            float: right;
+        }
+
+        .navbar-default.sidebar {
+            float: right;
+        }
+    }
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+    @media (min-width: @screen-lg-min) {}
+}
+/*/NAV*/
